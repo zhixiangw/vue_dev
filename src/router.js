@@ -1,7 +1,5 @@
-import App from './App.vue'
-
-const Home = { template: '<div>home</div>' }
-const Index = { template: '<div>index</div>' }
+import Index from './componets/Index.vue'
+import Home from './componets/Home.vue'
 
 export default [
   { path: '/index', component: Index },
