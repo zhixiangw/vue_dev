@@ -10,8 +10,6 @@
         <h2>{{ msg }}</h2>
         <img src="../../assets/logo.png">
         <h2>{{ msg }}</h2>
-        <img src="../../assets/logo.png">
-        <h2>{{ msg }}</h2>
         <router-view></router-view>
       </el-col>
     </el-row>
