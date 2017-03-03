@@ -8,7 +8,7 @@ Vue.use(Vuex)
 Vue.use(ElementUI)
 import Store from './store'
 
-import App from './App.vue'
+import PageContainer from './componets/page-container/PageContainer.vue'
 import routes from './router'
 
 const router = new VueRouter({
@@ -20,5 +20,5 @@ new Vue({
   el: '#app',
   router,
   store,
-  render: (h) => h(App)
+  render: (h) => h(PageContainer)
 })

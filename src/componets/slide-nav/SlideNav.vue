@@ -11,7 +11,3 @@
     </el-submenu>
   </el-menu>
 </template>
-
-<script>
-export default {}
-</script>

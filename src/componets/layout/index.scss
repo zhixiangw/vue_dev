@@ -1,0 +1,14 @@
+@charset 'utf-8';
+#root {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+
+.layout {
+  min-width: 1200px;
+  min-height: 100%;
+}
+.left-nav {
+  background: #324157;
+}
