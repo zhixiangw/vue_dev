@@ -1,22 +1,12 @@
 import createLogger from '../node_modules/vuex/src/plugins/logger.js'
-
-const moduleA = {
-  state: {
-    msg: 'Welcome to Your INDEX PAGE on Vue.js App'
-  }
-}
-
-const moduleB = {
-  state: {
-    msg: 'Welcome to Your HOME PAGE on Vue.js App'
-  }
-}
+import index from './componets/Index.vue'
+import home from './componets/Home.vue'
 
 export default (Vuex) => {
   return new Vuex.Store({
     modules: {
-      moduleA,
-      moduleB
+      index,
+      home
     },
     plugins: process.env.NODE_ENV !== 'production' ? [createLogger()] : []
   })
