@@ -1,4 +1,11 @@
 @charset 'utf-8';
+.head-row{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
 .left-head-nav, .right-head-nav{
   height: 40px;
   line-height: 40px;

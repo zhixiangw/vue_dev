@@ -1,5 +1,5 @@
 <template>
-  <el-row>
+  <el-row class="head-row">
     <el-col :span="4" class="left-head-nav">
       <i class="el-icon-menu"></i>
       <span>Single Dog</span>

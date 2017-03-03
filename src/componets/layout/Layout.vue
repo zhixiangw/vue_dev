@@ -6,7 +6,7 @@
         <MenuNav />
       </el-col>
       <el-col :span="20" class="right-content">
-        <img src="../../assets/logo.png">
+        <img src="../../assets/logo.png" @click="showSucc">
         <h2>{{ msg }}</h2>
         <img src="../../assets/logo.png">
         <h2>{{ msg }}</h2>
@@ -28,6 +28,11 @@ export default {
   components: {
     HeadNav,
     MenuNav
+  },
+  methods: {
+    showSucc() {
+      this.$message('这是一条消息提示')
+    }
   }
 }
 </script>
