@@ -6,10 +6,6 @@
         <MenuNav />
       </el-col>
       <el-col :span="20" class="right-content">
-        <img src="../../assets/logo.png" @click="showSucc">
-        <h2>{{ msg }}</h2>
-        <img src="../../assets/logo.png">
-        <h2>{{ msg }}</h2>
         <router-view></router-view>
       </el-col>
     </el-row>

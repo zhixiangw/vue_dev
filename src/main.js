@@ -8,7 +8,7 @@ Vue.use(Vuex)
 Vue.use(ElementUI)
 import Store from './store'
 
-import PageContainer from './componets/page-container/PageContainer.vue'
+import PageContainer from './common/page-container/PageContainer.vue'
 import routes from './router'
 
 const router = new VueRouter({

@@ -1,4 +1,6 @@
-export const GET_HOME_MSG = 'GET_HOME_MSG'
-export function getHomeMsg({ commit }) {
-  return commit(GET_HOME_MSG)
+export const CLICK_HOME_BUTTON = 'CLICK_HOME_BUTTON'
+export function clickHomeButton({ commit }, payload) {
+  console.log('----->this is home click')
+  console.log(payload)
+  commit(CLICK_HOME_BUTTON, payload)
 }
