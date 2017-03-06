@@ -4,7 +4,6 @@
   height: 100%;
   overflow: auto;
 }
-
 .layout {
   min-width: 1200px;
   min-height: 100%;
@@ -12,4 +11,10 @@
 }
 .left-nav {
   background: #324157;
+}
+.move-enter-active,.move-leave-active{
+    transition: opacity .5s;
+}
+.move-enter,.move-leave{
+    opacity: 0;
 }

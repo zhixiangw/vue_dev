@@ -6,7 +6,9 @@
         <MenuNav />
       </el-col>
       <el-col :span="20" class="right-content">
-        <router-view></router-view>
+        <transition name="move" mode="out-in">
+          <router-view></router-view>
+        </transition>
       </el-col>
     </el-row>
   </div>
@@ -18,7 +20,7 @@ import HeadNav from '../head-nav/HeadNav.vue'
 export default {
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App',
+      msg: 'Welcome to Your Vue.js App'
     }
   },
   components: {
