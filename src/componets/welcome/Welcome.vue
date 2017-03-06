@@ -14,7 +14,13 @@ export default {
   },
   methods: {
     showSucc() {
-      this.$message('这是一条消息提示')
+      this.$axios.post('http://zhixiang.nblogger.cn/api/v1/sd_manage/list', {
+        status: 0,
+        name: null
+      }).then((res) => {
+        console.log(res)
+        this.$message('这是一条消息提示')
+      })
     }
   }
 }

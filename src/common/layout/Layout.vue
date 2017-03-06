@@ -26,11 +26,6 @@ export default {
   components: {
     HeadNav,
     MenuNav
-  },
-  methods: {
-    showSucc() {
-      this.$message('这是一条消息提示')
-    }
   }
 }
 </script>
