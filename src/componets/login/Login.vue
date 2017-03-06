@@ -1,7 +1,9 @@
 <template>
   <div>
     <h2>{{ msg }}</h2>
-    <button @click="linkTo"><router-link to="/welcome">click me</router-link></button>
+    <button @click="linkTo">
+      click me
+    </button>
   </div>
 </template>
 
@@ -15,6 +17,7 @@ export default {
   methods: {
     linkTo() {
       console.log('hey, you clicked me!')
+      this.$router.push('/welcome')
     }
   }
 }
