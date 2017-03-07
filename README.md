@@ -1,6 +1,7 @@
 # vue_dev
 
 > 一个vue2.x + vue-router + vuex + element-ui + webpack + es6的后台（SingleDog）管理系统
+
 > 代码规范参照eslint具体规范
 
 ## Build Setup
