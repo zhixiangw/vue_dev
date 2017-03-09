@@ -13,7 +13,8 @@ import PageContainer from './common/page-container/PageContainer.vue'
 import routes from './router'
 
 const router = new VueRouter({
-  routes
+  routes,
+  mode: 'history' // 依赖 HTML5 History API 和服务器配置,路由呈现url形式，而非锚点模式
 })
 const store = Store(Vuex)
 
